@@ -1,0 +1,18 @@
+{
+  "cards": [
+      {
+        "id": 201,
+        "cardNumber": "5118 1034 0756 1703",
+        "cardHolderName": "Ana Clara Ribeiro",
+        "expirationDate": "2025-05-31 00:00:00",
+        "cvv": 426
+      },
+      {
+        "id": 202,
+        "cardNumber": 4716751992963921,
+        "cardHolderName": "Rebeca Eduarda Catarina",
+        "expirationDate": "2024-07-01 00:00:00",
+        "cvv": 631
+      }
+    ]
+}

@@ -8,19 +8,26 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#142995"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["./assets/fonts/*"],
+    "extra": {
+      "expo": {
+        "fonts": [
+          {
+            "asset": "./assets/fonts/PTSans-Regular.ttf"
+          }
+        ]
+      }
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#142995"
       }
     },
     "web": {

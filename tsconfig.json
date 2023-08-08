@@ -7,10 +7,15 @@
     "lib": ["es6"],
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "esModuleInterop": true,
     "isolatedModules": true,
     "noEmit": true,
     "allowJs": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"],
+    }
   },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "App.tsx"], 
   "exclude":["node_modules"]
 }
